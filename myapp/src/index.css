@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card-1 {
+  background-image: url('https://media.discordapp.net/attachments/1194605736957845534/1239909304639950910/reusable-banners-card-1-bg-1.png?ex=6647eec6&is=66469d46&hm=a6a47549d31eb3189c26e5cf56eb0f3dd5bfce07b4a702802caf1ea02fda7cd1&=&format=webp&quality=lossless&width=825&height=222');
+  background-size: cover;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url('https://media.discordapp.net/attachments/1194605736957845534/1239909457559814155/reusable-banners-card-3-bg-1.png?ex=6647eeeb&is=66469d6b&hm=e3a7d802875becd2127cfffb3b18c1472b96b6320052067cfd845b0cc485d1a3&=&format=webp&quality=lossless');
+  background-size: cover;
+}
+
+.card-3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://media.discordapp.net/attachments/1194605736957845534/1239909304639950910/reusable-banners-card-1-bg-1.png?ex=6647eec6&is=66469d46&hm=a6a47549d31eb3189c26e5cf56eb0f3dd5bfce07b4a702802caf1ea02fda7cd1&=&format=webp&quality=lossless');
+  background-size: cover;
+}
+
+.banner-card-item {
+  border: 1px solid #cbced2;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 32px;
+  max-width: 1140px;
+  list-style-type: none;
+}
+
+.heading {
+  color: #326a9d;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.para {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.show-more-btn {
+  color: #326a9d;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid #326a9d;
+  border-radius: 5px;
+  padding: 8px;
+}
+
